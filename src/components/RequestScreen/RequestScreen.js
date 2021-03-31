@@ -8,11 +8,26 @@ import Box from '@material-ui/core/Box';
 import SignIn from '../SignIn/SignIn';
 import About from '../About/About';
 import House from '../House/House';
-import Globe from '../Globe/Globe';
 import Grid1 from '../Grid1/Grid1';
 import Grid2 from '../Grid2/Grid2';
 import Grid3 from '../Grid3/Grid3';
 import GridH1 from '../GridH1/GridH1';
+import Profile from '../Profile/Profile';
+import Profile2 from '../Profile2/Profile2';
+import Notification from '../Notification/Notification';
+import Badge from '../Badge/Badge';
+import logo2 from '../../images/logo2.png';
+import './RequestScreen.css';
+import poster from '../../images/poster.png';
+import Avatar1 from '../Avatar/Avatar1';
+import Profile3 from '../Profile3/Profile3';
+import Profile4 from '../Profile4/Profile4';
+import Carousel1 from '../Carousel1/Carousel1';
+import Profile5 from '../Profile5/Profile5';
+import SimpleMap from '../SimpleMap/SimpleMap';
+
+
+
 
 
 
@@ -74,7 +89,10 @@ const RequestScreen = () => {
         <div className="container">
         <div className="row">
         <div className={classes.root}>
-        <div className="col-2">      
+        <div className="col-2">
+        <div className="req">
+            <img src={logo2} alt=""/>
+        </div>      
       <Tabs
         orientation="vertical"
         variant="fullWidth"
@@ -89,31 +107,72 @@ const RequestScreen = () => {
         <Tab label="Donors" {...a11yProps(3)} />
         <Tab label="Customize" {...a11yProps(4)} />
       </Tabs>
+      <br></br>
+      <div className="req2">
+        <img src={poster} alt=""/>
+      </div>
       </div>
       <div className="col-10">
       <TabPanel value={value} index={0}>
+      <div className="container">
+        <div className="row">
+        <div className="col-6">
         <House></House>
-        {/* <GridH1></GridH1> */}
+        <Carousel1></Carousel1>
+        <Profile5></Profile5>
+        </div>
+        <div className="col-6">
+            <SimpleMap></SimpleMap>
+        
+        </div>
+        </div>
+        
+        </div>
+        
       </TabPanel>
     
       
       
       <TabPanel value={value} index={1}>
-        <Grid1></Grid1>
-        <Grid2></Grid2>
-        <Grid3></Grid3>
+      <div className="container">
+        <div className="row">
+        <div className="col-5">
+        <Profile></Profile>
+        </div>
+        <div className="col-7">
+        <Profile2></Profile2>
+        <br></br>
+        <Profile4></Profile4>
+        </div>
+        </div>
+        </div>
       </TabPanel>
       
       
       
       <TabPanel value={value} index={2}>
-        Item Three
+        <Notification></Notification>
       </TabPanel>
       
       
       
       <TabPanel value={value} index={3}>
-        Item Four
+          <h5>Donations</h5>
+          <br></br>
+      <Grid3></Grid3>
+      <br></br>
+      <div className="container">
+        <div className="row">
+        <div className="col-6">
+        <Grid2></Grid2>
+      </div>
+      <div className="col-6">
+        
+        <Grid1></Grid1>
+        </div>
+        </div>
+        </div>
+        
       </TabPanel>
       
       

@@ -18,8 +18,16 @@ import Contact from './components/Contact/Contact';
 import Group from './components/Group/Group';
 import RequestScreen from './components/RequestScreen/RequestScreen';
 
+
+
+
 function App() {
+
+
+  
   return (
+ 
+
     <Router>
       <Switch>
         <Route exact path="/">
@@ -74,7 +82,7 @@ function App() {
       </Switch>
       <Switch>
       <Route path="/group">
-        <Group></Group>
+        <Group></Group>  
         </Route>
       </Switch>
       <Switch>
@@ -83,6 +91,10 @@ function App() {
         </Route>
       </Switch>
       </Router>
+
+
+
+  
   );
 }
 

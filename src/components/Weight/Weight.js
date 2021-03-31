@@ -10,6 +10,7 @@ import logo2 from '../../images/logo2.png';
 import scale from '../../images/scale.png';
 import { Link } from 'react-router-dom';
 
+
 const useStyles = makeStyles({
     root: {
         maxWidth: 245,
@@ -52,7 +53,7 @@ const Weight = () => {
                 </CardActionArea>
                 <CardActions>
                 <nav>
-                    <Link className="button" to="/group">Select</Link>
+                    <Link className="button" to="/gender">Select</Link>
                 </nav>
                 </CardActions>
             </Card>
