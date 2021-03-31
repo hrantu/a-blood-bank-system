@@ -17,10 +17,7 @@ const Avatar1 = () => {
     return (
         <div>
             <div className={classes.root}>
-                <Avatar alt="M" src={antu} />
-                {/* <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
-                <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" /> */}
-        
+                <Avatar alt="M" src={antu} />    
             </div>
         </div>
     );

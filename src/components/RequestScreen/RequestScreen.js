@@ -25,6 +25,7 @@ import Profile4 from '../Profile4/Profile4';
 import Carousel1 from '../Carousel1/Carousel1';
 import Profile5 from '../Profile5/Profile5';
 import SimpleMap from '../SimpleMap/SimpleMap';
+import Statistic from '../Statistic/Statistic';
 
 
 
@@ -120,6 +121,7 @@ const RequestScreen = () => {
         <House></House>
         <Carousel1></Carousel1>
         <Profile5></Profile5>
+        <Statistic></Statistic>
         </div>
         <div className="col-6">
             <SimpleMap></SimpleMap>

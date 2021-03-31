@@ -163,9 +163,7 @@ const Profile2 = () => {
             </div>
             </div>
       </TabPanel>
-      {/* <TabPanel value={value} index={2}>
-        Item Three
-      </TabPanel> */}
+      
     </div>
         </div>
     );

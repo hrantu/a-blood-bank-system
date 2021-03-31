@@ -20,8 +20,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-// const message = `Truncation should be conditionally applicable on this long line of text
-//  as this is a much longer line than what the container can support. `;
+
 
 
 const Profile3 = () => {
@@ -30,27 +29,7 @@ const Profile3 = () => {
         <div>
              <div className={classes.root}>
                  
-      {/* <Paper className={classes.paper}>
-        <Grid container wrap="nowrap" spacing={2}>
-          <Grid item>
-            <Avatar>W</Avatar>
-          </Grid>
-          <Grid item xs zeroMinWidth>
-            <Typography noWrap>{message}</Typography>
-          </Grid>
-        </Grid>
-      </Paper>
-      <Paper className={classes.paper}>
-        <Grid container wrap="nowrap" spacing={2}>
-          <Grid item>
-            <Avatar>W</Avatar>
-          </Grid>
-          <Grid item xs>
-            <Typography noWrap>{message}</Typography>
-          </Grid>
-        </Grid>
-      </Paper> */}
-      {/* <Paper className={classes.paper}> */}
+      
         <Grid container wrap="nowrap" spacing={4}>
           <Grid item>
           <Avatar style={{backgroundColor:"red"}}>
@@ -87,12 +66,10 @@ const Profile3 = () => {
         
           </Grid>
           
-          {/* <Grid item xs>
-            <Typography>{message}</Typography>
-          </Grid> */}
+          
         </Grid>
         
-      {/* </Paper> */}
+      
     </div>
         </div>
     );
